@@ -36,11 +36,11 @@
    */
 
   var defaults = {
-    title: 'Are you sure?',
-    commit: 'Confirm',
+    title: 'Bestätigen',
+    commit: 'Bestätigen',
     commitClass: 'btn-danger',
-    cancel: 'Cancel',
-    cancelClass: 'btn-default',
+    cancel: 'Abbrechen',
+    cancelClass: 'btn-success',
     fade: true,
     verifyClass: 'form-control',
     elements: ['a[data-confirm]', 'button[data-confirm]', 'input[type=submit][data-confirm]'],
@@ -132,8 +132,8 @@
         '<div class="modal-dialog">' +
           '<div class="modal-content">' +
             '<div class="modal-header">' +
-              '<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>' +
               '<h4 id="'+id+'Label" class="modal-title"></h4> ' +
+              '<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>' +
             '</div>' +
             '<div class="modal-body"></div>' +
             '<div class="modal-footer">' +
